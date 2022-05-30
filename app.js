@@ -7,7 +7,7 @@ if (screen.matches) {
         const square = document.createElement("div")
         square.classList.add("square")
     
-        square.addEventListener("mouseover", () => 
+        square.addEventListener("touch", () => 
            // console.log("adawdwadwa")
             setColor(square))
     
